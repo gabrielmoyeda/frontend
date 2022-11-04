@@ -12,7 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Books app</h1>
-      <Link href="/libros">Listado de libros</Link>
+      <Link 
+        href="/libros"
+        data-cy="link-to-books"
+      >Listado de libros</Link>
     </div>
   )
 }
